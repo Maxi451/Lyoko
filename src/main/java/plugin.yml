@@ -1,0 +1,13 @@
+name: Lyoko
+version: 1.0.0
+main: it.tristana.lyoko.Main
+author: Massimiliano Micol
+api-version: 1.19
+description: Code Lyoko on Minecraft
+depend: [TristanaCommons]
+commands:
+   lyoko:
+      description: Plugin main command
+      usage: Please type /lyoko help
+      permission: lyoko.player
+      default: true
